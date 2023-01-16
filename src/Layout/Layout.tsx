@@ -1,5 +1,6 @@
 // import { Outlet } from "react-router-dom";
 import { SideBer } from "../Components/sidebar/SideBar";
+import { Header } from "../Components/UI/Header";
 
 type Props = {
   children: React.ReactNode;
@@ -7,11 +8,11 @@ type Props = {
 
 export const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <div className="flex h-screen w-screen">
-      <div className="left-0 h-full overflow-x-auto bg-slate-300">
-        <SideBer />
+    <div className="h-screen w-screen bg-base-color">
+      <div className="sticky top-0 max-h-14 w-full bg-base-color">
+        <Header />
       </div>
-      <div className="h-full w-full flex-grow overflow-auto pb-8">
+      <div className="h-screen w-full flex-grow overflow-auto bg-base-color">
         {children}
       </div>
     </div>

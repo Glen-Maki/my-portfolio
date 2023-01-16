@@ -17,7 +17,7 @@ export const WorksCards = ({
   qiitaUrl,
 }: WorksCardsProps) => {
   return (
-    <div className="h-fit	w-full bg-rose-50/80 p-3">
+    <div className="h-fit	w-full rounded-2xl  bg-card-color px-5 py-3">
       <div className="text-lg">{title}</div>
       {/* ここから内容 */}
       <div className="mt-2 h-full w-full text-left">
@@ -25,17 +25,23 @@ export const WorksCards = ({
       </div>
       <div className="mt-2 h-full w-full">
         <p>使用言語: {lang}</p>
-        <a href={url} className="text-cyan-600 visited:text-violet-700">
-          ソースコードはこちらから
-        </a>
-        <br />
+
         {qiitaUrl ? (
-          <a href={qiitaUrl} className="text-cyan-600 visited:text-violet-700">
-            Qiita記事はこちらから
-          </a>
+          <p>
+            <a
+              href={qiitaUrl}
+              className="text-cyan-600 visited:text-violet-700"
+            >
+              Qiita記事はこちらから
+            </a>
+          </p>
         ) : (
           <></>
         )}
+
+        <a href={url} className="text-cyan-600 visited:text-violet-700">
+          ソースコードはこちらから
+        </a>
       </div>
     </div>
   );

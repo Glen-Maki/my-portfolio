@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "base-color": "#F5EFE6",
+        "sub-color": "#AEBDCA",
+        "card-color": "#EAC7C7",
+      },
+    },
   },
   plugins: [],
 };
