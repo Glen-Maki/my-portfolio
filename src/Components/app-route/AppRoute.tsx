@@ -18,7 +18,7 @@ export const AppRoute = () => {
             }
           />
           <Route
-            path="/Profile"
+            path="/profile"
             element={
               <Layout>
                 <Profile />
@@ -26,7 +26,7 @@ export const AppRoute = () => {
             }
           />
           <Route
-            path="/Works"
+            path="/works"
             element={
               <Layout>
                 <Works />
