@@ -2,14 +2,19 @@
   {
     "title": "XGBoostで競馬予想",
     "url": "https://github.com/Glen-Maki/keiba-xgboost",
-    "contents": "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想しました。",
+    "contents": [
+      "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想しました。"
+    ],
     "lang": "Python",
     "qiita_url": "https://qiita.com/Glen-Maki/items/fa97ed8c3039f39f957c"
   },
   {
-    "title": "作成中",
-    "url": "https://github.com/Glen-Maki/keiba-xgboost",
-    "contents": "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想しました。<br>https://qiita.com/Glen-Maki/items/fa97ed8c3039f39f957c",
-    "lang": "Python"
+    "title": "NHK起床庁",
+    "url": "https://github.com/Glen-Maki/nhk-kisyocho",
+    "contents": [
+      "情報科学総合演習という授業で、ESP32というマイコンを用いた課題制作で作成したWebサイトです。",
+      "ローカルで立ち上げたAPIサーバーに接続し、APIサーバーからESP32というマイコンへhttpリクエストを出す構成になっています。"
+    ],
+    "lang": "TypeScript（React.js）"
   }
 ]

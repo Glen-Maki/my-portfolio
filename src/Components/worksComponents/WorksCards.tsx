@@ -3,7 +3,7 @@ import { SVGProps } from "react";
 type WorksCardsProps = {
   //image: string;
   title: string;
-  contents: string;
+  contents: string[];
   url: string;
   lang: string;
   qiitaUrl: string | null;
@@ -21,7 +21,9 @@ export const WorksCards = ({
       <div className="text-lg">{title}</div>
       {/* ここから内容 */}
       <div className="mt-2 h-full w-full text-left">
-        <p>{contents}</p>
+        {contents.map((e, i) => {
+          return <p key={i}>{e}</p>;
+        })}
       </div>
       <div className="mt-2 h-full w-full">
         <p>使用言語: {lang}</p>
