@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 
 const LinkPage: { link: string; title: string }[] = [
-  { link: "/profile", title: "Profile" },
   { link: "/works", title: "Works" },
-  { link: "/profile", title: "Profile" },
+  { link: "/about", title: "About" },
 ];
 
 export const Header = () => {
