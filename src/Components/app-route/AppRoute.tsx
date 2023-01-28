@@ -19,7 +19,7 @@ export const AppRoute = () => {
             }
           />
           <Route
-            path="/profile"
+            path="/about"
             element={
               <Layout>
                 <Profile />
