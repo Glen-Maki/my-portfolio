@@ -1,5 +1,3 @@
-// import { Outlet } from "react-router-dom";
-import { SideBer } from "../Components/sidebar/SideBar";
 import { Header } from "../Components/UI/Header";
 
 type Props = {
