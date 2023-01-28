@@ -1,13 +1,38 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Layout } from "../../Layout/Layout";
+import { Home } from "../../Page/Home";
+import { Profile } from "../../Page/Profile";
+import { Works } from "../../Page/Works";
 
 export const AppRoute = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/Profile" element={<Profile />} />
-          <Route path="/Works" element={<Works />} />
+        <Route path="/">
+          <Route
+            index
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            }
+          />
+          <Route
+            path="/profile"
+            element={
+              <Layout>
+                <Profile />
+              </Layout>
+            }
+          />
+          <Route
+            path="/works"
+            element={
+              <Layout>
+                <Works />
+              </Layout>
+            }
+          />
         </Route>
       </Routes>
     </BrowserRouter>
