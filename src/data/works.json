@@ -1,20 +1,31 @@
 [
   {
+    "workKey": "keiba-xgboost",
     "title": "XGBoostで競馬予想",
     "url": "https://github.com/Glen-Maki/keiba-xgboost",
-    "contents": [
-      "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想しました。"
-    ],
+    "contents": "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想した。",
     "lang": "Python",
     "qiita_url": "https://qiita.com/Glen-Maki/items/fa97ed8c3039f39f957c"
   },
   {
-    "title": "NHK起床庁",
+    "workKey": "nhk-kisyocho",
+    "title": "NHK起床庁 起こすCAR",
     "url": "https://github.com/Glen-Maki/nhk-kisyocho",
-    "contents": [
-      "情報科学総合演習という授業で、ESP32というマイコンを用いた課題制作で作成したWebサイトです。",
-      "ローカルで立ち上げたAPIサーバーに接続し、APIサーバーからESP32というマイコンへhttpリクエストを出す構成になっています。"
-    ],
+    "contents": "情報科学総合演習という授業で、ESP32というマイコンを用いた課題制作（グループワーク）で作成したWebサイト。ローカルで立ち上げたAPIサーバーに接続し、APIサーバーからESP32というマイコンへhttpリクエストを出す構成。",
     "lang": "TypeScript（React.js）"
+  },
+  {
+    "workKey": "todo-list-vue",
+    "title": "TODO LIST (Vue.js)",
+    "url": "https://github.com/Glen-Maki/todolist",
+    "contents": "三年生の4月あたりに初めて作成したVueプロジェクト。",
+    "lang": "JavaScript（Vue.js）"
+  },
+  {
+    "workKey": "pedigree-checker",
+    "title": "配合チェッカー",
+    "url": "https://github.com/Glen-Maki/",
+    "contents": "競走馬の血統・配合でどのくらい勝てるかを分類する決定木モデルを作成した。また、その決定木モデルをAPIサーバーと連携させ、Webアプリとして使用できるようにした。",
+    "lang": "TypeScript（React.js）, Python（FastAPI）"
   }
 ]

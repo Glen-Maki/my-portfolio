@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "../../Layout/Layout";
 import { Home } from "../../Page/Home";
 import { Profile } from "../../Page/Profile";
+import { WorkPage } from "../../Page/WorkPage";
 import { Works } from "../../Page/Works";
 
 export const AppRoute = () => {
@@ -10,7 +11,7 @@ export const AppRoute = () => {
       <Routes>
         <Route path="/">
           <Route
-            index
+            path="/"
             element={
               <Layout>
                 <Home />
@@ -30,6 +31,23 @@ export const AppRoute = () => {
             element={
               <Layout>
                 <Works />
+              </Layout>
+            }
+          />
+          <Route
+            path="works/:workKey"
+            index
+            element={
+              <Layout>
+                <WorkPage />
+              </Layout>
+            }
+          ></Route>
+          <Route
+            path="*"
+            element={
+              <Layout>
+                <></>
               </Layout>
             }
           />

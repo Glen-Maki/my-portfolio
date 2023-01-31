@@ -10,6 +10,7 @@ export const Works = () => {
           return (
             <div className="w-3/5" key={work.title}>
               <WorksCards
+                workKey={work.workKey}
                 title={work.title}
                 lang={work.lang}
                 url={work.url}

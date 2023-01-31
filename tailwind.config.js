@@ -7,6 +7,7 @@ module.exports = {
         "base-color": "#F5EFE6",
         "sub-color": "#AEBDCA",
         "card-color": "#EAC7C7",
+        "card-hovered": "#FF8DC7",
       },
     },
   },
