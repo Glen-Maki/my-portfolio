@@ -1,21 +1,42 @@
 {
   "keiba-xgboost": {
     "title": "XGBoostで競馬予想",
-    "url": "https://github.com/Glen-Maki/keiba-xgboost",
+    "githubUrl": "https://github.com/Glen-Maki/keiba-xgboost",
     "contents": [
-      "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想しました。",
-      "環境はGoogle Colaboratoryを用いました。"
+      "所属しているゼミ・研究室のAdvent Calendarで機械学習（XGBoost）で2022年のチャンピオンズカップを予想した。",
+      "環境にはGoogle Colaboratoryを用いて、機械学習モデルを構築。"
     ],
-    "lang": "Python",
+    "lang": ["Python"],
     "qiita_url": "https://qiita.com/Glen-Maki/items/fa97ed8c3039f39f957c"
   },
   "nhk-kisyocho": {
     "title": "NHK起床庁 起こすCAR",
-    "url": "https://github.com/Glen-Maki/nhk-kisyocho",
+    "githubUrl": "https://github.com/Glen-Maki/nhk-kisyocho",
     "contents": [
-      "情報科学総合演習という授業で、ESP32というマイコンを用いた課題制作で作成したWebサイトです。",
-      "ローカルで立ち上げたAPIサーバーに接続し、APIサーバーからESP32というマイコンへhttpリクエストを出す構成になっています。"
+      "情報科学総合演習という授業で、3人でグループを組んで、ESP32というマイコンを用いた課題制作で作成したWebサイト。",
+      "ローカルで立ち上げたAPIサーバーに接続し、APIサーバーからESP32というマイコンへhttpリクエストを出す構成。",
+      "私がWebアプリ担当で、一人がAPIサーバー構築、もう一人がESP32というマイコンの処理という役割分担。"
     ],
-    "lang": "TypeScript（React.js）"
+    "lang": ["TypeScript", "React.js"]
+  },
+  "todo-list-vue": {
+    "title": "TODO LIST (Vue.js)",
+    "githubUrl": "https://github.com/Glen-Maki/todolist",
+    "contents": [
+      "三年生の4月あたりに初めて作成したVueプロジェクト。",
+      "当時、使ったことのあるWebフレームワークが、ゼミの勉強会で触ったVue.jsのみだったため、そちらを用いた。"
+    ],
+    "lang": ["JavaScript", "Vue.js"]
+  },
+  "pedigree-checker": {
+    "title": "配合チェッカー",
+    "githubUrl": "https://github.com/Glen-Maki/breed-checker",
+    "contents": [
+      "競走馬の血統・配合でどのくらい勝てるかを分類する決定木モデルを構築した。",
+      "また、その決定木モデルを用いたAPIサーバーを構築し、Webアプリを作成した。",
+      "決定木モデルとAPIサーバーの構築にはPythonを用い、Webアプリ作成にはReact.jsを使用した。",
+      "決定木モデルの構築を通して、自分の機械学習に関する知識の足りなささを痛感。"
+    ],
+    "lang": ["TypeScript", "React.js", "Python", "FastAPI"]
   }
 }

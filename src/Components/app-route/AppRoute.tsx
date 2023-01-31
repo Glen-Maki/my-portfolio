@@ -11,7 +11,7 @@ export const AppRoute = () => {
       <Routes>
         <Route path="/">
           <Route
-            index
+            path="/"
             element={
               <Layout>
                 <Home />
@@ -35,13 +35,22 @@ export const AppRoute = () => {
             }
           />
           <Route
-            path="works/:work"
+            path="works/:workKey"
+            index
             element={
               <Layout>
                 <WorkPage />
               </Layout>
             }
           ></Route>
+          <Route
+            path="*"
+            element={
+              <Layout>
+                <></>
+              </Layout>
+            }
+          />
         </Route>
       </Routes>
     </BrowserRouter>

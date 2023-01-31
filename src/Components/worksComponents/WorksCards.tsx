@@ -20,7 +20,6 @@ export const WorksCards = ({
   lang,
   qiitaUrl,
 }: WorksCardsProps) => {
-  console.log(workKey);
   return (
     <div className="relative h-fit w-full rounded-2xl bg-card-color delay-100 duration-500 hover:bg-card-hovered">
       <Link to={`/works/${workKey}`}>
