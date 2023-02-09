@@ -31,7 +31,9 @@
   "pedigree-checker": {
     "title": "配合チェッカー",
     "githubUrl": "https://github.com/Glen-Maki/breed-checker",
+    "url": "https://breed-checker-web.onrender.com",
     "contents": [
+      "競走馬生産における、生産者のバイアスを排除し、配合の相性を定量的に示そうとした制作物。",
       "競走馬の血統・配合でどのくらい勝てるかを分類する決定木モデルを構築した。",
       "また、その決定木モデルを用いたAPIサーバーを構築し、Webアプリを作成した。",
       "決定木モデルとAPIサーバーの構築にはPythonを用い、Webアプリ作成にはReact.jsを使用した。",
