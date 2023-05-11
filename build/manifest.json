@@ -1,0 +1,15 @@
+{
+  "short_name": "Kazuya's Portfolio",
+  "name": "Kazuya Makino's Portfolio",
+  "icons": [
+    {
+      "src": "maki.jpeg",
+      "type": "image/jpeg",
+      "sizes": "400x400"
+    }
+  ],
+  "start_url": "/works",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

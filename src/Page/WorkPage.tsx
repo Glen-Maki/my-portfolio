@@ -31,6 +31,19 @@ export const WorkPage = () => {
           return <span key={i}>{e}</span>;
         })}
       </div>
+      {workData?.url ? (
+        <div className="text-xl">
+          url:
+          <a
+            href={workData?.url}
+            className="text-sub-color visited:text-card-hovered"
+          >
+            {workData?.url}
+          </a>
+        </div>
+      ) : (
+        <></>
+      )}
       <div className="grid grid-cols-3 gap-2 text-lg">
         {workData?.lang.map((e) => {
           return (
@@ -40,6 +53,7 @@ export const WorkPage = () => {
           );
         })}
       </div>
+
       <a href={workData?.githubUrl} className="flex items-center gap-2">
         <div className="text-gray-800 delay-75 duration-500 hover:text-sub-color">
           <IconContext.Provider value={{ size: "35px" }}>
