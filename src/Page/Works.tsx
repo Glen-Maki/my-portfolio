@@ -8,7 +8,7 @@ export const Works = () => {
       <div className="flex w-full flex-col items-center justify-between gap-4">
         {works_json.map((work) => {
           return (
-            <div className="w-3/5" key={work.title}>
+            <div className="w-4/5 md:w-3/5" key={work.title}>
               <WorksCards
                 workKey={work.workKey}
                 title={work.title}
