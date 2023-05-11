@@ -19,7 +19,7 @@ export const Profile = () => {
       <div className="flex  w-4/5 flex-col justify-center gap-2 bg-card-color py-3 px-2 md:w-2/5">
         <p>2022年5月頭~10月末</p>
         <p>株式会社 Ghost</p>
-        <p className="text-left text-lg">
+        <p className="text-left">
           フロントエンドエンジニアとして、医療機関が使用する備品管理サイトやチャットボットを搭載した
           チャットアプリなどといったWebアプリケーションの受託開発のコーディング業務に携わる。
           <br />
@@ -32,7 +32,7 @@ export const Profile = () => {
       <LanguageList />
 
       {/* リンク一覧 */}
-      <div className="flex w-full justify-center gap-3">
+      <div className="mt-4 flex w-full justify-center gap-3">
         <div className="grid max-h-fit max-w-fit place-items-center rounded-full p-1 delay-100 duration-500 hover:bg-sub-color">
           <a
             target="_blank"
@@ -58,7 +58,7 @@ export const Profile = () => {
       </div>
 
       {/* 連絡先 */}
-      <div className="mb-10">
+      <div className="mb-10 mt-3">
         <p className="">E-mail : rukazurau0514[@]gmail.com</p>
         <p className="text-sm">実際に連絡する場合には[]を外してください</p>
       </div>
